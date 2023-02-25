@@ -5,7 +5,7 @@ This paper was accepted as a Top 5% paper with Oral Presentation to the Internat
 
 WikiWhy is a QA dataset built around a novel auxiliary task: explaining why an answer is true in natural language. WikiWhy contains over 9,000 “why” question-answer-rationale triples, grounded on Wikipedia facts across a diverse set of topics. Each rationale is a set of supporting statements connecting the question to the answer. 
 
-![Figure 1.](https://github.com/msho-student/WikiWhy/blob/main/figures/top_example.pdf?raw=true)
+![Figure 1.](https://github.com/msho-student/WikiWhy/blob/main/figures/top_example.png?raw=true)
 
 ## Updates
 02/24/2023 Added dataset version 1.0
