@@ -1,5 +1,5 @@
 # WikiWhy
-[Paper](https://openreview.net/pdf?id=vaxnu-Utr4l) | [Poster](https://github.com/matt-seb-ho/WikiWhy/blob/add_load_instructions/wikiwhy_iclr23_poster.pdf)
+[Paper](https://openreview.net/pdf?id=vaxnu-Utr4l) | [Poster](https://github.com/matt-seb-ho/WikiWhy/blob/main/wikiwhy_iclr23_poster.pdf)
 
 WikiWhy is a new benchmark for evaluating models' ability to **explain** *between* cause and effect. 
 WikiWhy is a QA dataset built around the novel auxiliary task of explaining the answer to a "why" questions in natural language. 
@@ -7,7 +7,7 @@ It contains over 9,000 “why” question-answer-rationale triples, grounded on 
 
 This paper was accepted as a top 5% paper with oral presentation to the International Conference on Learning Representations (ICLR 2023) in Kigali, Rwanda.
 
-![Figure 1.](https://github.com/matt-seb-ho/WikiWhy/blob/add_load_instructions/figures/poster_figure.png)
+![Figure 1.](https://github.com/matt-seb-ho/WikiWhy/blob/main/figures/poster_figure.png)
 
 ## Dataset Usage
 In light of data contamination concerns, and to prevent WikiWhy from inadvertently being included in pre-training corpora, we've separated WikiWhy's columns into separate files. 
@@ -21,9 +21,9 @@ wikiwhy = load_wikiwhy(directory_path="../dataset/v1.1/")
 ```
 
 ## Updates
-04/24/2023 Added paper and poster links; added code and instructions to easily load in WikiWhy
-02/28/2023 Added dataset version 1.1
-02/24/2023 Added dataset version 1.0
+- 04/24/2023 Added paper+poster links, and code/instructions to load in WikiWhy
+- 02/28/2023 Added dataset version 1.1
+- 02/24/2023 Added dataset version 1.0
 
 ## Citation
 ```
